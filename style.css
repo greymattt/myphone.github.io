@@ -118,14 +118,14 @@ h5 {
     }
     h3{
         font-family: monospace;
-        color: grey;
+        color: gray;
         font-size: 25px;
         text-align: center;
     } 
 
     h4{
         font-family: monospace;
-        color: rgba(50,100,130,1);
+        color: rgba(50,100,300,1);
         font-size: 30px;
         text-align: center;
     }

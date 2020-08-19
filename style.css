@@ -89,7 +89,7 @@ h5 {
     color: #fff;
     text-align: center;
     font-size: 40px;
-    width: 110%;
+    width: 100%;
     }
 
     .hero {
@@ -99,7 +99,7 @@ h5 {
     }
 
     .content-left {
-        width:80%;
+        width:100%;
     }
 
     .content-right {

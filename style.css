@@ -3,87 +3,58 @@
     padding: 0;
 }
 
-h1 {
-    font-family: monospace;
-    color: #fff;
-    text-align: justify;
-    padding:1rem 1rem 1rem 1rem;
+.navbar-nav li a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: yellow;
+    display: block;
+    margin: auto;
+    transition: .5s;
 }
-
-h2 {
-    font-family: monospace;
-    color: #fff;
-    font-size: 90px;
-    margin:2rem 0 0 5rem;
+.navbar-nav li a:hover::after{
+    width: 100%;
 }
-
-h3{
-    font-family: monospace;
-    color: grey;
-    font-size: 30px;
-    margin-left: 5rem; 
-} 
-
-h4{
-    font-family: monospace;
-    color: rgba(50,100,300,1);
-    font-size: 50px;
-    margin-left: 5rem; 
-}
-
-
-
-.hero {
-    display: flex;
-    align-items: center;
-}
-.navbar {
-    background-color: black;
-    height: 4rem;
-    text-align: center;
-}
-
-button {
-    color: white;
-    background: transparent;
-    border: 1px solid #fff;
-    border-radius: 20px;
-    margin-left: 3rem;
-    padding: 10px 25px; 
-}
-
 .banner {
     display: flex; 
-    height: 300px;
-
 }
 
 .content-left{
     width: 50%;
 }
 
+.content-left h2 {
+    font-family: monospace;
+    color: #fff;
+    font-size: 90px;
+    margin:2rem 0 0 5rem;
+}
+
+.content-left h3 {
+    font-family: monospace;
+    color: grey;
+    font-size: 30px;
+    margin-left: 5rem; 
+}
+.content-left h4 {
+    font-family: monospace;
+    color: rgba(50,100,300,1);
+    font-size: 50px;
+    margin-left: 5rem; 
+}
+
 .content-right {
     flex-grow: 1; 
 }
 
-.about {
-    margin-top: 30rem;
-}
 
-h5 {
-    font-size: 40px;
-    color: #fff;
-}
 
 @media (max-width: 1000px){
     *{
         margin: 0;
         padding: 0;
     }
-    .navbar{
-        height: 8rem;
-        width: 100%;
-    }
+
     h1 {
     font-family: monospace;
     color: #fff;
@@ -92,41 +63,76 @@ h5 {
     width: 100%;
     }
 
-    .hero {
-    display: block;
-    align-items: center;
-    width: 100%
-    }
-
     .content-left {
         width:100%;
     }
-
+    .content-left h2 {
+        font-family: monospace;
+        color: #fff;
+        font-size:60px;
+        text-align: center;
+        }
+    .content-left h3{
+        font-family: monospace;
+        color: gray;
+        font-size: 25px;
+        text-align: center;
+    }
+    .content-left h4 {
+        font-family: monospace;
+        color: rgba(50,100,300,1);
+        font-size: 30px;
+        text-align: center;
+    }
     .content-right {
         display: none;
     }
 
     .banner {
         display: block;
-    }
-
-    h2 {
-        font-family: monospace;
-        color: #fff;
-        font-size:50px;
-        text-align: center;
-    }
-    h3{
-        font-family: monospace;
-        color: gray;
-        font-size: 25px;
-        text-align: center;
     } 
-
-    h4{
+    .navbar .navbar-brand {
+      font-size: 30px;
+    }
+    .navbar .nav-item {
+      padding: 10px 20px;
+    }
+    .navbar .nav-link {
+      font-size: 20px;
+      margin-left: 10px;
+    }
+    .fa-bars {
+      color: #007bff;
+      font-size: 30px;
+    }
+    .form h1{
+        text-align: center;
         font-family: monospace;
-        color: rgba(50,100,300,1);
-        font-size: 30px;
+        font-size: 60px;
+        margin: 2rem;
+        text-transform: uppercase;
+        color: yellow;
+    }
+    .form {
+        color: #fff;
+        font-family: monospace;
+        
         text-align: center;
     }
-}  
+
+    .form label{
+        display: block;
+        font-size: 30px;
+        margin-top: 2rem;
+    }
+    .form select {
+        font-size: 20px;
+        border: 2px solid yellow;
+        border-radius: 5px;
+        padding: 10px 25px; 
+        color: yellow;
+        background-color: #353535;
+    }
+
+
+}

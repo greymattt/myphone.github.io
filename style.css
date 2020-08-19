@@ -1,0 +1,64 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+h1 {
+    font-family: monospace;
+    color: #fff;
+    text-align: justify;
+    padding:1rem 1rem 1rem 1rem;
+}
+
+h2 {
+    font-family: monospace;
+    color: #fff;
+    font-size: 90px;
+    margin:2rem 0 0 5rem;
+}
+
+h3{
+    font-family: monospace;
+    color: grey;
+    font-size: 30px;
+    margin-left: 5rem; 
+} 
+
+h4{
+    font-family: monospace;
+    color: rgba(50,100,130,1);
+    font-size: 50px;
+    margin-left: 5rem; 
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+}
+.navbar {
+    background-color: black;
+    height: 4rem;
+}
+
+button {
+    color: white;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    margin-left: 3rem;
+    padding: 10px 25px; 
+}
+
+.banner {
+    display: flex; 
+    height: 300px;
+
+}
+
+.content-left{
+    width: 50%;
+}
+
+.content-right {
+    flex-grow: 1; 
+}

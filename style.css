@@ -133,6 +133,17 @@
     .banner {
         display: block;
     } 
+
+    .navbar-brand {
+        height: 4rem;
+        margin-left: 50%; 
+    }
+
+    .navbar-nav li a{
+        display: flex;
+        justify-content: center;
+    }
+
     .navbar .navbar-brand {
       font-size: 30px;
     }

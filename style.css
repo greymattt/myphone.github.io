@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+.navbar-brand, .navbar-nav {
+    font-family: 'Bree Serif', serif;
+}
+
 .navbar-nav li a::after {
     content: '';
     width: 0%;
@@ -97,7 +101,6 @@
     }
 
     h1 {
-    font-family: monospace;
     color: #fff;
     text-align: center;
     font-size: 50px;
@@ -108,19 +111,16 @@
         width:100%;
     }
     .content-left h2 {
-        font-family: monospace;
         color: #fff;
         font-size:110px;
         text-align: center;
         }
     .content-left h3{
-        font-family: monospace;
         color: gray;
         font-size: 50px;
         text-align: center;
     }
     .content-left h4 {
-        font-family: monospace;
         color: rgba(50,100,300,1);
         font-size: 65px;
         text-align: center;
@@ -143,22 +143,23 @@
       font-size: 25px;
       margin-left: 10px;
     }
+
+    .navbar-nav li a::after {
+        display: none;
+    }
     .fa-bars {
       color: #007bff;
       font-size: 35px;
     }
     .form h1{
         text-align: center;
-        font-family: monospace;
         font-size: 90px;
         margin: 2rem;
         text-transform: uppercase;
         color: yellow;
     }
     .form {
-        color: #fff;
-        font-family: monospace;
-        
+        color: #fff;        
         text-align: center;
     }
     .form h2{
